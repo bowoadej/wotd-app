@@ -1,6 +1,4 @@
-import InputTextField from "./components/Textfield";
 import Word from "./components/Word";
-import Button from "./components/Button";
 import "./App.css";
 
 function App() {
