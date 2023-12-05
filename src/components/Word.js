@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 
+
 export default function Word() {
     const [word, setWord] = useState("");
     useEffect(() => {
@@ -8,7 +9,9 @@ export default function Word() {
             .then(data => setWord(data))
     }, [])
 
+    let url = "https://www.merriam-webster.com/dictionary/" + word
+
     return (
-        <h2>Your Word Of The Day Is <u><b>{word}</b></u></h2 >
+        <h2>Your Word Of The Day Is <u><a href={url}>{word}</a></u></h2 >
     )
 }
