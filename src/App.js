@@ -11,8 +11,7 @@ function App() {
       </header>
       <div id="body">
         <Word />
-        <CookieConsent enableDeclineButton>This website uses cookies to enhance the user experience.</CookieConsent>
-        <AdsContainer />
+
       </div>
     </div>
   );
