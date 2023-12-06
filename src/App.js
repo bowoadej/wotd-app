@@ -1,7 +1,5 @@
-import CookieConsent from "react-cookie-consent";
 import Word from "./components/Word";
 import "./App.css";
-import AdsContainer from "./components/AdsContainer";
 
 function App() {
   return (
@@ -11,8 +9,6 @@ function App() {
       </header>
       <div id="body">
         <Word />
-        <CookieConsent enableDeclineButton>This website uses cookies to enhance the user experience.</CookieConsent>
-        <AdsContainer />
       </div>
     </div>
   );
