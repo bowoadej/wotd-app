@@ -1,7 +1,5 @@
-import CookieConsent from "react-cookie-consent";
 import Word from "./components/Word";
 import "./App.css";
-import AdsContainer from "./components/AdsContainer";
 
 function App() {
   return (
