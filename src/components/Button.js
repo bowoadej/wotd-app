@@ -1,10 +1,11 @@
+import Word from "./Word";
 
 export default function Button() {
     return (
         <div className="button">
             <button type="button">
-                Submit
-            </button>
-        </div>
+                Generate
+            </button >
+        </div >
     )
 }

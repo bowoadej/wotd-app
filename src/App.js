@@ -1,5 +1,7 @@
 import Word from "./components/Word";
 import "./App.css";
+import Button from "./components/Button";
+import SocialShare from "./components/SocialShare";
 
 function App() {
   return (
@@ -8,7 +10,9 @@ function App() {
         <h1>W.O.T.D - Word Of The Day Game</h1>
       </header>
       <div id="body">
-        <Word />
+        <Word buttonState="notClicked" />
+        <Button />
+        <SocialShare />
       </div>
     </div>
   );
