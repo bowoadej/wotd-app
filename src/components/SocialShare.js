@@ -4,6 +4,8 @@ export default function SocialShare() {
         <div className="social-share">
             <h3>Share the word on <a href="http://facebook.com">Facebook</a></h3>
             <h3>Share the word on <a href="http://x.com">X</a></h3>
+            <h3>Share the word on <a href="http://linkedin.com">LinkedIn</a></h3>
+
         </div>
     )
 }

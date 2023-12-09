@@ -49,3 +49,22 @@ button:hover {
   background-color: rgb(63, 63, 255);
   border-color: black;
 }
+
+#email-container {
+  align-content: center;
+  border: 10px gray;
+  border-style: rounded;
+  background-color: white;
+  padding: 15px 30px;
+  padding-bottom: 40px;
+
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+}
+
+#footer-p {
+  font-size: small;
+}
