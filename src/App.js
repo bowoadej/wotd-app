@@ -12,8 +12,12 @@ function App() {
       </header>
       <div id="body">
         <Button />
-        <SocialShare />
-
+        <h2>Share on social</h2>
+        <div className="social-stack">
+          <SocialShare socialName="Facebook" url="https://www.facebook.com" />
+          <SocialShare socialName="X" url="https://www.x.com" />
+          <SocialShare socialName="LinkedIn" url="https://www.linkedin.com" />
+        </div>
       </div>
     </div>
   );
