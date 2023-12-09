@@ -11,6 +11,9 @@ function App() {
         <h1>W.O.T.D - Word Of The Day Game</h1>
       </header>
       <div id="body">
+        <p>W.O.T.D is an app for generating Word Of The Day.<br>
+        </br> Word Of The Day is a great way to improve your vocabulary. You can click on the Word Of The Day to get a dictionary definition.</p>
+
         <Button />
         <h2>Share on social</h2>
         <div className="social-stack">
@@ -18,6 +21,8 @@ function App() {
           <SocialShare socialName="X" url="https://www.x.com" />
           <SocialShare socialName="LinkedIn" url="https://www.linkedin.com" />
         </div>
+        <EmailContainer />
+        <Footer />
       </div>
     </div>
   );

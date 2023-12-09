@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 p {
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .cookie-banner {
@@ -65,10 +65,22 @@ button:hover {
   bottom: 0;
 }
 
-#footer-p {
-  font-size: small;
+#email-button {
+  font-size: medium;
 }
 
+
 #social-stack {
+  display: inline-block;
+}
+
+input[type="text"] {
+  padding: 15px;
+  font-size: large;
+  padding-right: 10px;
+  margin-right: 5px;
+}
+
+#email-container-form {
   display: inline-block;
 }

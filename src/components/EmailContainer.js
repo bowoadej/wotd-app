@@ -1,16 +1,20 @@
-import { useState } from "react"
+import { useState } from "react";
 
 export default function EmailContainer() {
-    const [showEmailContainer, setEmailContainer] = useState(false)
+    const [EmailContainerState, setEmailContainerState] = useState(false);
+
     return (
+
         <div className="email-container">
-            <button className="email-button" onClick={event => setEmailContainer(true)} > <h3>Click Here To Sign Up For Daily Word Of The Day Notifications</h3></button>
-            {
-                showEmailContainer && <div className="email-container-form">
-                    <label for="Email">Enter Your Email:</label>
+            {EmailContainerState &&
+                <div className="email-container-form">
+                    <h3>Enter Your Email Below To Sign Up For Daily Word Of The Day Notifications</h3>
+
                     <input type="text" />
+                    <button>Submit</button>
                 </div>
             }
         </div >
+
     )
 }
