@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import Cookies from 'js-cookie';
 
 export default function AddToList() {
+
+    const [showList, setShowList] = useState(false);
+
     return (
         <button>Add To List</button>
 
