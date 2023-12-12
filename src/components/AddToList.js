@@ -4,6 +4,7 @@ import Cookies from 'js-cookie';
 export default function AddToList() {
 
     const [showList, setShowList] = useState(false);
+    const [showAddToListButton, setAddToListButton] = useState(true);
 
     return (
         <button>Add To List</button>
