@@ -1,9 +1,10 @@
 
-export default function SocialShare() {
+export default function SocialShare(props) {
+
     return (
         <div className="social-share">
-            <h3>Share the word on <a href="http://facebook.com">Facebook</a></h3>
-            <h3>Share the word on <a href="http://x.com">X</a></h3>
+            <p>Share your word on <a href={props.url}>{props.socialName}</a></p>
+
         </div>
     )
 }
