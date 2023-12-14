@@ -17,7 +17,7 @@ export default function Button() {
             <div className="title">
                 {
                     button ? <h2>Your Word Of The Day Is <a href={url}> {word}</a>
-                        <AddToList /> </h2>
+                    </h2>
                         : <h2>Click the Generate Button Below To Generate Your Word Of The Day </h2>
                 }
                 <div className="button">
