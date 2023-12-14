@@ -16,18 +16,17 @@ p {
 
 
 .cookie-pop-up {
-  visibility: show;
-  width: 160px;
-  background-color: #555;
+  background: #444;
   color: #fff;
+  padding: 6px;
+  font-size: 13px;
   text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
 }
 
 button {
@@ -76,4 +75,10 @@ input[type="text"] {
 
 #email-container-form {
   display: inline-block;
+}
+
+.cookie button {
+  font-size: medium;
+  padding: 10px 42px;
+  margin-right: 10px;
 }
