@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import AddToList from "./AddToList";
+
 
 export default function Button() {
     const [word, setWord] = useState("");
@@ -13,7 +15,11 @@ export default function Button() {
     return (
         <div className="main-container">
             <div className="title">
-                {button ? <h2>Your Word Of The Day Is <a href={url}> {word}</a> </h2> : <h2>Click the Generate Button Below To Generate Your Word Of The Day </h2>}
+                {
+                    button ? <h2>Your Word Of The Day Is <a href={url}> {word}</a>
+                        <AddToList /> </h2>
+                        : <h2>Click the Generate Button Below To Generate Your Word Of The Day </h2>
+                }
                 <div className="button">
                     <button type="button" onClick={event => setButtonState(true)}>
                         Generate
