@@ -11,7 +11,6 @@ function App() {
   const cookieValue = createContext(false);
   return (
     <div className="App">
-      <CookiesManagement />
       <header className="App-header">
         <h1>W.O.T.D - Word Of The Day Game</h1>
       </header>
@@ -29,6 +28,8 @@ function App() {
         <EmailContainer />
         <Footer />
       </div>
+      <CookiesManagement />
+
     </div>
   );
 }
