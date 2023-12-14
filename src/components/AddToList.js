@@ -1,14 +1,16 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Cookies from 'js-cookie';
-
 export default function AddToList() {
 
+    //const generatedWord;
     const [showAddToListButton, setAddToListButton] = useState(true);
     const [wordArray, setWordArray] = useState([]);
+    const [arrayContainsWord, setArrayContainsWord] = useState(false)
 
     useEffect(() => {
-        Cookies.get([wordList]);
+        Cookies.set("wordsOfTheDay", JSON.stringify(wordArray));
     }, []);
+
 
 
     return (
@@ -18,13 +20,16 @@ export default function AddToList() {
                 {
                     showAddToListButton &&
                     <div className="userWordList">
-                        <h2>My Saved List</h2>
+                        {arrayContainsWord &&
+                            < h2 > My Saved List</h2>
+                        }
                     </div>
                 }
             </div>
-        </div>
-        //Get Cookies of existing words
+        </div >
+        //Get Array of existing words from Cookie
         // Append Array with Cookies of Existing Words
         //Show the list of the existing words
+        //Do you set cookie first or get cookie?
     )
 }

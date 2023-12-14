@@ -14,27 +14,20 @@ p {
   font-size: 1rem;
 }
 
-.cookie-banner {
-  position: fixed;
-  height: 20%;
-  width: 100%;
-  background-color: lightblue;
-  align-items: center;
-  left: 0%;
-  right: 0%;
-  bottom: 0%;
 
-}
-
-.cookie-banner-header {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: bold;
-  font-size: large;
-}
-
-.cookie-banner-description {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: medium;
+.cookie-pop-up {
+  visibility: show;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
 }
 
 button {
