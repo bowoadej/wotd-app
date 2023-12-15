@@ -93,3 +93,17 @@ input[type="text"] {
   margin-right: 10px;
   border-color: red;
 }
+
+.cookie-policy {
+  background-color: skyblue;
+  font-size: medium;
+  padding: 10px 42px;
+  margin-right: 10px;
+  border-color: skyblue;
+  padding-bottom: 10px;
+}
+
+.cookie-policy-container {
+  padding: 10px;
+  text-align: center;
+}
