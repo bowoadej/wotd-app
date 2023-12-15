@@ -6,7 +6,6 @@ export default function CookiesManagement() {
     const [showPopUp, setShowPopUp] = useState(true);
     //const [context, setContext] = useContext(Context);
     function setCookieConsent(cookieValue) {
-        console.log(cookieValue)
         Cookies.set("consent", cookieValue);
     }
 
