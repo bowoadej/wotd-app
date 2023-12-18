@@ -2,7 +2,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
   text-align: center;
 }
 
@@ -106,4 +105,10 @@ input[type="text"] {
 .cookie-policy-container {
   padding: 10px;
   text-align: center;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .page-title {
+    font-size: 10px;
+  }
 }
