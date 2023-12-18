@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>W.O.T.D - Word Of The Day Game</h1>
+        <h1 className="page-title">W.O.T.D - Word Of The Day Game</h1>
       </header>
       <div id="body">
         <p>W.O.T.D is an app for generating Word Of The Day.<br>
