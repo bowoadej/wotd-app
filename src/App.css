@@ -2,7 +2,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
   text-align: center;
 }
 
@@ -14,6 +13,17 @@ p {
   font-size: 1rem;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding-right: 8px;
+  font-weight: bold;
+}
 
 .cookie-pop-up {
   background: #444;
@@ -33,6 +43,7 @@ button {
   background-color: rgb(0, 191, 255);
   color: white;
   border-radius: 8px;
+  border-width: 1.5px;
   font-size: large;
   padding: 15px 32px;
 }
@@ -77,8 +88,38 @@ input[type="text"] {
   display: inline-block;
 }
 
-.cookie button {
+.cookie-yes {
+  background-color: khaki;
   font-size: medium;
   padding: 10px 42px;
   margin-right: 10px;
+  border-color: khaki;
+}
+
+.cookie-no {
+  background-color: red;
+  font-size: medium;
+  padding: 10px 42px;
+  margin-right: 10px;
+  border-color: red;
+}
+
+.cookie-policy {
+  background-color: skyblue;
+  font-size: medium;
+  padding: 10px 42px;
+  margin-right: 10px;
+  border-color: skyblue;
+  padding-bottom: 10px;
+}
+
+.cookie-policy-container {
+  padding: 10px;
+  text-align: center;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .page-title {
+    font-size: 10px;
+  }
 }
