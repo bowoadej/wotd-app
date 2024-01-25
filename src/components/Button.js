@@ -26,6 +26,9 @@ export default function Button() {
                     </button >
                 </div >
             </div>
+            {button &&
+                <AddToList generatedString={word} />
+            }
         </div>
     )
 }
