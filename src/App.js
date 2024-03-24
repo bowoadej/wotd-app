@@ -15,6 +15,7 @@ import {
 import About from "./About";
 import Home from "./Home";
 import Privacy from "./Privacy";
+import IosPromo from "./IosPromo";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />
-
+          <Route path="/ios-promo" element={<IosPromo />} />
         </Routes>
         <div>
           <nav>

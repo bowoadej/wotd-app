@@ -4,6 +4,7 @@ import SocialShare from "./components/SocialShare"
 import EmailContainer from "./components/EmailContainer"
 import CookiesManagement from "./components/CookiesManagement"
 import Footer from "./Footer"
+import AddToList from "./components/AddToList"
 
 export default function Home() {
     return (
